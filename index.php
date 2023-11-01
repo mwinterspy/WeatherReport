@@ -72,7 +72,7 @@ $minutos = number_format($minutos, 1, '.');
                                     </div>
                                     <div class="sunset">
                                         <img src="img/sunset.png" class="iconSunset"><br>
-                                        <?php echo date("H:i", $dadosClimaticos->nascerDoSol) ?>
+                                        <?php echo date("H:i", $dadosClimaticos->porDoSol) ?>
                                     </div>
 
                                 </div>
